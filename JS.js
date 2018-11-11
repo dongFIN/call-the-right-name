@@ -64,19 +64,58 @@ data = [
     }
 ]
 
-let sent = document.querySelector('.sent')
+let sent = document.querySelector('.sent')   //最後確認要篩選條件
+
 var color_btn = document.querySelector('.color_btn')
-var color = document.querySelectorAll('.color')
-var ear = document.querySelectorAll('.ear')
-var tail = document.querySelectorAll('tail')
-var collar = document.querySelectorAll('collar')
-var other = document.querySelectorAll('other')
-var nowcolor;
+var color = document.querySelectorAll('.color li')
+let nowcolor
 for(let x of color){
-    x.addEventListener('click',function (){
-        nowcolor = x.value;
+    x.addEventListener('click',function(){
+        nowcolor = x.textContent;
         color_btn.textContent = nowcolor;
+        console.log(nowcolor);
     })
 }
 
-console.log(nowcolor)
+var ear = document.querySelectorAll('.ear li')
+var ear_btn = document.querySelector('.ear_btn')
+let nowear
+for(let y of ear){
+    y.addEventListener('click',function(){
+        nowear = y.textContent;
+        ear_btn.textContent = nowear;
+        console.log(nowear)
+    })
+}
+
+var tail = document.querySelectorAll('.tail li')
+var tail_btn = document.querySelector('.tail_btn')
+let nowtail
+for(let y of tail){
+    y.addEventListener('click',function(){
+        nowtail = y.textContent;
+        tail_btn.textContent = nowtail;
+        console.log(nowtail)
+    })
+}
+
+
+var collar = document.querySelectorAll('.collar li')
+var collar_btn = document.querySelector('.collar_btn')
+let nowcollar
+for(let x of collar){
+    x.addEventListener('click',function(){
+        nowcollar = x.textContent;
+        collar_btn.textContent = nowcollar;
+    })
+}
+
+var other = document.querySelectorAll('.other li')
+var other_btn = document.querySelector('.other_btn')
+let nowother
+for(let x of other){
+    x.addEventListener('click',function(){
+        nowother = x.textContent;
+        other_btn.textContent = nowother;
+    })
+}

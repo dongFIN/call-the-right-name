@@ -47,7 +47,8 @@ h1{
     list-style: none;
 }
 .pic button{
-    font-size: 28px;
+    font-family: "Microsoft JhengHei";
+    font-size: 24px;
     padding: 10px;
     cursor: pointer;  /*當滑鼠移上去時的圖案 */
 }

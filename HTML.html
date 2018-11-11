@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
     <link rel="stylesheet" href="all.css">
     <link rel="stylesheet" href="cutomize.css">
-    <script src="JS.js"></script>
+    <script src="JS.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
             <button class="color_btn">毛色</button>
             <div class="meau">
                 <ul class="color">
+                    <li>我不確定</li>
                     <li>黑色</li>
                     <li>米白色</li>
                     <li>雜雜花色</li>
@@ -31,6 +33,7 @@
             <button class="ear_btn">耳朵型態</button>
             <div class="meau">
                 <ul class="ear">
+                    <li>我不確定</li>
                     <li>立耳</li>
                     <li>捲耳</li>
                 </ul>
@@ -40,6 +43,7 @@
             <button class="tail_btn">尾巴型態</button>
             <div class="meau">
                 <ul class="tail">
+                    <li>我不確定</li>
                     <li>捲尾</li>
                     <li>直尾</li>
                 </ul>
@@ -49,10 +53,13 @@
             <button class="collar_btn">項圈顏色</button>
             <div class="meau">
                 <ul class="collar">
+                    <li>我不確定</li>
                     <li>藍色</li>
                     <li>黑色</li>
                     <li>紅色</li>
                     <li>黃色</li>
+                    <li>吉樂帶</li>
+                    <li>無項圈</li>
                 </ul>
             </div>
         </div>
@@ -60,6 +67,7 @@
                 <button class="other_btn">其他特徵</button>
                 <div class="meau">
                     <ul class="other">
+                        <li>我不確定</li>
                         <li>身上有小搓雜白毛</li>
                         <li>胸前有白毛</li>
                         <li>毛帶紅棕色</li>
@@ -69,6 +77,18 @@
     </div>
     <div class="right"></div> 
 
+        <!-- <script>
+            var color_btn = document.querySelector('color_btn');
+            var Color = document.querySelectorAll('.color li');
+            for(const x of Color){
+                x.addEventListener('click',function(){
+                    var nc = x.textContent;
+                    console.log(nc);
+                    color_btn.textContent = nc;
+                })
+            }
+        
+        </script>  -->
 
 </body>
 </html>

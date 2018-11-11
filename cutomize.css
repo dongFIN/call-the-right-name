@@ -3,7 +3,7 @@
 .pic .dropdown_color{    /*位置定位*/
     position: absolute;
     display: inline-block;  
-    top: 280px;
+    top: 225px;
     left: 100px;
 }
 .pic .color_btn{        /*按鈕*/
@@ -31,7 +31,7 @@
     position: absolute;
     display: inline-block;
     right: 100px;
-    top: 150px;
+    top: 100px;
 }
 .pic .ear_btn{        /*按鈕*/
     background-color: white;
@@ -58,7 +58,7 @@
     position: absolute;
     display: inline-block; 
     left: 100px;
-    top: 150px;
+    top: 60px;
 }
 .pic .tail_btn{        /*按鈕*/
     background-color: white;
@@ -112,7 +112,7 @@
     position: absolute;
     display: inline-block; 
     left: 100px;
-    top: 450px;
+    top: 420px;
 }
 .pic .other_btn{        /*按鈕*/
     background-color: white;
