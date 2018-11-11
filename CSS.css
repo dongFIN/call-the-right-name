@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    background-image: url("/picture/128495-ORX4GM-568.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.left{
+    float: left;
+    width: 16.16%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+}
+.right{
+    float: left;
+    width: 16.16%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+}
+h1{
+    margin: 30px;
+    font-size: 50px;
+}
+.pic_color{
+    height: 600px;
+    background-image: url("/picture/未命名-1.png");
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pic{
+    /* background-image: url("/picture/未命名-1.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: white;
+    float: left;
+    width: 66.67%;
+    height: 80%;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.pic ul{   /*消除list格式*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pic button{
+    font-size: 28px;
+    padding: 10px;
+    cursor: pointer;  /*當滑鼠移上去時的圖案 */
+}
+button.sent{
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: rgb(255, 149, 149);
+    color: white;
+    border: 2px solid white;
+}
+button.sent:hover{
+    background-color: rgb(233, 95, 95);
+}
+.pic .meau {
+    display: none;    /*未移至button前隱藏*/
+    position: absolute;
+    background-color: white;
+}
+.pic li{              /*所有li格式*/
+    text-align: left;
+    width: 100px;
+    border: 1px solid rgb(192, 191, 192);
+    padding: 5px 10px;
+}
+
+/*color格式*/
+.pic .dropdown_color{    /*位置定位*/
+    position: absolute;
+    display: inline-block;  
+    top: 280px;
+    left: 100px;
+}
+.pic .color_btn{        /*按鈕*/
+    background-color: rgb(255, 255, 255);
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_color:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_color:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_color .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*ear格式*/
+.pic .dropdown_ear{     /*位置定位*/
+    position: absolute;
+    display: inline-block;
+    right: 100px;
+    top: 150px;
+}
+.pic .ear_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_ear:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_ear:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_ear .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*tail格式*/
+.pic .dropdown_tail{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    left: 100px;
+    top: 150px;
+}
+.pic .tail_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_tail:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_tail:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_tail .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*collar格式*/
+.pic .dropdown_collar{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    right: 100px;
+    top: 280px;
+}
+.pic .collar_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_collar:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_collar:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_collar .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*other格式*/
+.pic .dropdown_other{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    left: 100px;
+    top: 450px;
+}
+.pic .other_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.pic .dropdown_other .meau li{
+    width: 150px;
+}
+.dropdown_other:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_other:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_other .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
