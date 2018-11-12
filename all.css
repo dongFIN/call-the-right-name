@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: "Microsoft JhengHei";
-    background-image: url("/picture/128495-ORX4GM-568.jpg");
+    background-image: url("./picture/128495-ORX4GM-568.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -22,9 +22,9 @@ h1{
     margin: 30px;
     font-size: 50px;
 }
-.pic_color{
+.pic_dog{
     height: 600px;
-    background-image: url("/picture/未命名-1.png");
+    background-image: url("./picture/未命名-1.png");
     background-size: 80%; 
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@ h1{
     padding: 10px;
     cursor: pointer;  /*當滑鼠移上去時的圖案 */
 }
-button.sent{
+button.sent_btn{
     margin: 15px;
     font-size: 16px;
     border-radius: 20px;
@@ -60,7 +60,7 @@ button.sent{
     color: white;
     border: 2px solid white;
 }
-button.sent:hover{
+button.sent_btn:hover{
     background-color: rgb(233, 95, 95);
 }
 .pic .meau {
@@ -73,4 +73,13 @@ button.sent:hover{
     width: 100px;
     border: 1px solid rgb(192, 191, 192);
     padding: 5px 10px;
+}
+.list{
+    text-align: center;
+    /* background-color: azure; */
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    font-size: 28px;
 }
