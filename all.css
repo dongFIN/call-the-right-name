@@ -1,10 +1,16 @@
 body{
     margin: 0;
+}
+.computer{
+    margin: 0;
     text-align: center;
     font-family: "Microsoft JhengHei";
     background-image: url("./picture/128495-ORX4GM-568.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+.phone{
+    display: none;
 }
 .left{
     float: left;
